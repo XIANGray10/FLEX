@@ -103,9 +103,12 @@ table {
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    background: yellow;
     padding-left: 10px;
     
+}
+
+@media (max-width: 428px){
+    .header4{width: 428px;}
 }
 
 .header5 a{
