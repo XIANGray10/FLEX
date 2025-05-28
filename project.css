@@ -55,7 +55,7 @@ table {
     display: flex;
     justify-content: center;
     font-size: 28px;
-    
+    font-weight: bold;   
 }
 
 @media (max-width: 428px){
@@ -72,6 +72,8 @@ table {
 .header2{
     width: 100%;
     display: flex;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
 }
 
 
@@ -86,8 +88,10 @@ table {
 }
 
 .header3 img{
-    width: 100%;
+   width: 100%;
     object-fit: cover;
+   
+    
 }
 
 
@@ -103,7 +107,12 @@ table {
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    padding-left: 10px;
+    padding-left: 15px;
+    
+}
+
+.header4 p{
+    font-size: 16px;
     
 }
 
@@ -111,25 +120,52 @@ table {
     .header4{width: 428px;}
 }
 
-.header5 a{
+
+.header5 p{
+    font-size: 24px;
+    color: #0027d5;
+}
+
+.header7{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+.header4 h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.header6{
+    display: flex;
     background: blue;
     color: white;
-    border-radius: 20px;
-}
-
-.header5 a{
-    
+    border-radius: 40px;
+    font-size: 16px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    justify-content: center;
     margin-left: 10px;
+    
 }
-
 
 
 
 .wrap{
     width: 636px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 60px;
 }
+
+
 
 @media (max-width: 428px){
     .wrap{width: 428px;}
@@ -143,14 +179,55 @@ table {
 
 
 
-h1{
+.wrap h1{
     font-size: 28px;
     color: blue;
+    font-weight: bold;
+    margin-bottom: 36px;
+    margin-top: 30px;
 }
 
-.block{
-    background: gray;
+.wrap h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
+
+.wrap p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.wrap ol{
+    line-height: 1.5;
+}
+
+
+
+.content0 p{
+    margin-bottom: 50px;
+    
+}
+
+.content0 h1{
+    margin-bottom: 25px;
+}
+
+.content1{
+    margin-bottom: 60px;
+}
+
+
+.block{
+    margin-top: 20px;
+    background: #ededed;
+    padding: 24px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+
 
 
 ul{
@@ -158,25 +235,86 @@ ul{
     list-style: disc;
 }
 
+.content2{
+    margin-bottom: 50px;
+}
+
+.content2 ul{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.content2 li{
+    line-height: 1.5;
+}
+
+.content2 .block{
+    margin-bottom: 40px;
+}
+
+.content3{
+    margin-bottom: 50px;
+}
+
+.content3 li{
+    line-height: 1.5;
+}
+
+.content4{
+    margin-bottom: 70px;
+}
+
+.content4 h1{
+    margin-bottom: 30px;
+}
+
+.content4 .block{
+    margin-bottom: 30px;
+}
+
+.content5 h1{
+    margin-bottom: 30px;
+}
+
+.content5 ul{
+    line-height: 1.5;
+}
 
 .content6{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 80px;
     
 }
 
 .content6 a{
+    font-size: 16px;
+    display: flex;
     border-radius: 15px;
     border: 1px solid black;
     padding: 10px;
+    width: 108px;
+    justify-content: center;
     }
 
 .footer1{
     display: flex;
     justify-content: space-around;
+    border-top: 1px black solid;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
+
+.footer1 p{
+    font-size: 32px;
+    font-weight: 500px;
+}
 
 @media (max-width: 428px){
     .footer1{flex-direction: column;
@@ -185,4 +323,7 @@ ul{
 }
 
 .footer3{
-    text-align: center;}
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
