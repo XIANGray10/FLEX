@@ -96,7 +96,7 @@ table {
 
 
 @media (max-width: 428px){
-    .header3 img{width: 428px;}
+    .header3 img{width:100%;}
 }
 
 
@@ -118,8 +118,8 @@ table {
 
 @media (max-width: 428px){
     .header4{width: 428px;
-    margin-top: 30px;
-    margin-bottom: 30px;                 }
+    margin-top: 50px;
+    margin-bottom: 60px;}
 }
 
 
