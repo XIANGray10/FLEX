@@ -117,7 +117,9 @@ table {
 }
 
 @media (max-width: 428px){
-    .header4{width: 428px;}
+    .header4{width: 428px;
+    margin-top: 30px;
+    margin-bottom: 30px;                 }
 }
 
 
