@@ -59,7 +59,7 @@ table {
 }
 
 @media (max-width: 428px){
-    .header{width: 428px;}
+    .header{width: 100%;}
 }
 
 .header a{
@@ -117,7 +117,7 @@ table {
 }
 
 @media (max-width: 428px){
-    .header4{width: 428px;
+    .header4{width: 100%;
     margin-top: 50px;
     margin-bottom: 60px;}
 }
@@ -170,13 +170,13 @@ table {
 
 
 @media (max-width: 428px){
-    .wrap{width: 428px;}
+    .wrap{width: 100%;}
 }
 
 
 
 @media (max-width: 428px){
-    .wrap img{width: 428px;}
+    .wrap img{width:100%;}
 }
 
 
@@ -332,6 +332,10 @@ ul{
 @media (max-width: 428px){
     .footer1{flex-direction: column;
     align-items: center;
+    }
+
+    .footer1 p{
+    margin-bottom: 40px;
     }
 }
 
