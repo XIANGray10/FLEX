@@ -96,7 +96,7 @@ table {
 
 
 @media (max-width: 428px){
-    .header3 img{width:100%;}
+    .header3 img{width:100vh;}
 }
 
 
